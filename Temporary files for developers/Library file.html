@@ -1,0 +1,89 @@
+<style>/*按钮*/
+
+        .button1 {
+
+            -webkit-transition-duration: 0.3s;
+
+            font-size: 8;
+
+            transition-duration: 0.4s;
+
+            padding: 16px 32px;
+
+            text-align: center;
+
+            background-color: white;
+
+            color: pink;
+
+            border: 2px solid #FFB6C1;
+
+            border-radius:5px;
+
+        }
+
+        .button1:hover {
+
+            background-color: #FFC0CB;
+
+            color: white;
+
+        }
+ </style>
+
+
+<button class="button1"><!--调用方法-->
+    <font size=6 align="center"><b>
+        <a href="GoodWebsite_1.html" target="pink">第二页</a></b>
+        </font>
+        </size>
+</button><p>
+
+
+
+
+
+<style>                         
+    body                                    /* 总之就是设置背景图片 */
+    {
+        background-image: url('IMG_20220806_224938.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+</style>
+
+
+<style>
+.text                                   /* 字体描边 */
+    {
+        text-align: center;
+        font-size: 52px;
+        line-height: 2;
+        color: #fff;
+        font-weight: bold;
+    }
+    .improve-webkit-text-stroke 
+    {
+        -webkit-text-stroke: 6px #39C5BB;   /* 描边颜色 = 青色 */
+        position: relative;
+        z-index: 1;
+    }
+    .improve-webkit-text-stroke:after 
+    {
+        content: "个人收集的良心网站";
+        color: #fff;
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        right: 0;
+        top: 0;
+    -webkit-text-stroke-width: 0;
+    }
+
+
+</style>
+
+<div class="improve-webkit-text-stroke text"><!--调用方法-->
+    个人收集的良心网站
+</div>
